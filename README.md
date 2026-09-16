@@ -31,6 +31,6 @@ pytest test_pipeline.py -v
 After the ETL pipeline completes successfully, run the query provided in clv_report.sql against the newly generated analytics.db to view the Customer Lifetime Value rankings.
 (Optional : You can also quickly test and view the SQL report output by running python test_clv.py in the terminal).
 ```bash
-pytest test_clv.py
+python test_clv.py
 ```
 
