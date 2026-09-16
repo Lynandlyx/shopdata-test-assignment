@@ -11,7 +11,7 @@ select customer_id, phone
 from vw_raw_customers
 where phone like '%+%' or phone like '%-%' or phone like '%(%';
 
-where order_id, customer_id, total_amount
+select order_id, customer_id, total_amount
 from vw_raw_orders
 where total_amount <= 0;
 
